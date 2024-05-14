@@ -1,0 +1,162 @@
+.hero_section{
+    position: relative;
+    /* background-color: #15182B; */
+    background-image: url("../assets//cuppy//8.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+.hero_section::before{
+        content: "";
+        width: 100%;
+        height: 100vh;
+        background-color: #15182bf4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+.hero_img{
+    position: absolute;
+    top: -34px;
+    right: 0px;
+    width: 35rem;
+    height: 80vh;
+    z-index: 2;
+}
+
+.hero_img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.hero_right{
+    position: relative;
+    padding: 1rem 3rem;
+    width: fit-content;
+    z-index: 2;
+
+ 
+}
+
+.hero_right h1{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size:4.3rem;
+    color: #fff;
+}
+
+.hero_right h1 img{
+    width: 3rem;
+}
+
+.hero_right h3{
+    width: 50%;
+    font-weight: 700;
+    font-size:1.5rem;
+    color: #fff;
+}
+
+.hero_right p{
+    padding: 2rem 0;
+    width: 70%;
+    font-size:1.1rem;
+    color: #fff;
+}
+
+
+.hero_right .gallery{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero_right .gallery .gallery_controller{
+    font-size: 1.4rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero_right .img_box{
+    width: 12rem;
+    height: 7rem;
+  
+}
+
+.hero_right .img_box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.hero_right .images_flex{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero_right .buttons{
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+
+.button{
+    color:#ffffff;
+    font-size:1.2rem;
+    font-weight:500;
+    height:auto;
+    width:auto;
+    padding:1px 15px;
+    background:#fc4d8a;
+    border:6px solid #0000ff00;
+    border-radius:30px;
+    transform: rotate(0deg);
+    transition:0.3s;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:.6rem;
+  }
+
+  .button-2{
+    padding:8px 15px;
+  }
+
+  .button:hover{
+    color: #ffffff;
+    background: #cf205e;
+  }
+
+  .active-button{
+    background:#fc4d8a;
+    border:6px solid #cf205e;
+    color:#ffffff;
+  }
+
+  .active-button-2{
+    background:#fc4d8a;
+    border:6px solid #cf205e;
+    color:#ffffff;
+  }
