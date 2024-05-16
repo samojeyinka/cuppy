@@ -260,11 +260,18 @@
 
   }
 
+  @media screen and (max-width:500px){
+    .hero_section{
+      height: 60vh;
+      max-height: 60vh;
+  }
+  }
+
   @media screen and (max-width:400px){
 
     .hero_section{
-      height: 70vh;
-      max-height: 70vh;
+      height: 60vh;
+      max-height: 60vh;
   }
     .hero_section{
       padding: 2rem 0;
