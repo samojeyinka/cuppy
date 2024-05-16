@@ -1,9 +1,10 @@
-.about{
+.about {
     padding: 4rem 0;
     background-color: #fac0d5ea;
     overflow: hidden !important;
 }
-.about_flex{
+
+.about_flex {
     width: 80%;
     margin: auto;
     display: flex;
@@ -11,16 +12,16 @@
     gap: 2rem;
 }
 
-.about_left{
+.about_left {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     background-color: #fabcd3;
-    border-radius:2rem;
+    border-radius: 2rem;
 }
 
-.about_left h3{
+.about_left h3 {
     width: fit-content;
     font-weight: 400;
     font-size: 2rem;
@@ -28,93 +29,134 @@
     border-bottom: 2px solid #FC4D8A;
 }
 
-.about_left p{
+.about_left p {
     width: 80%;
     font-size: 1.1rem;
     line-height: 1.7rem;
 }
 
 
-.about_left .about_btns{
+.about_left .about_btns {
     display: flex;
     gap: 4rem;
 }
 
 
-.about_left  .likes{
+.about_left .likes {
     font-weight: 500;
     display: flex;
     align-items: center;
     gap: .3rem;
 }
 
-.about_left  .likes  span{
+.about_left .likes span {
     color: red;
 }
 
-.about_right .image_flex{
+.about_right .image_flex {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.about_right .image_flex .top{
+.about_right .image_flex .top {
     width: 27rem;
     height: 15rem;
 }
 
-.about_right .image_flex .top img,.about_right .image_flex .bottom img{
+.about_right .image_flex .top img,
+.about_right .image_flex .bottom img {
     width: 100%;
     height: 100%;
 }
 
-.about_right .image_flex .bottom{
+.about_right .image_flex .bottom {
     display: flex;
     gap: 1rem;
     width: 13rem;
     height: 13rem;
 }
 
-.about_right .image_flex img{
+.about_right .image_flex img {
     border-radius: 2rem;
 }
 
-@media screen and (max-width:768px){
-    .about_flex{
+
+@media screen and (max-width:900px) {
+    .about_flex {
         width: 95%;
         flex-direction: column;
         gap: 1rem;
     }
 
-    .about_left p{
+
+    .about_left p {
         width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width:768px) {
+    .about_flex {
+        width: 95%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
+    .about_left p {
+        width: 100%;
+    }
+
+
+    .about_right .image_flex .top {
+        width: auto;
+    }
+
+
+
+    .about_right .image_flex .bottom {
+        width: auto !important;
+        display: flex;
+        gap: 1rem;
+        width: auto;
+    }
+
+    .about_right .image_flex .bottom img {
+        width: 100%;
+        height: 12rem;
     }
 }
 
 
 
-@media screen and (max-width:400px){
-    .about{
+
+
+
+
+@media screen and (max-width:400px) {
+    .about {
         padding: 1rem 0;
     }
 
-    .about_flex{
+    .about_flex {
         width: 100%;
     }
 
-    
-.about_right .image_flex .top{
-    width: auto;
-}
+
+    .about_right .image_flex .top {
+        width: auto;
+    }
 
 
 
-.about_right .image_flex .bottom{
-    display: flex;
-    gap: 1rem;
-    width: auto;
-}
-
+    .about_right .image_flex .bottom {
+        display: flex;
+        gap: 1rem;
+        width: auto;
+    }
 
 
 }
