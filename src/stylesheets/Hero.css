@@ -197,6 +197,18 @@
   }
 
 
+  
+  @media screen and (max-width:900px){
+  .hero_img{
+    z-index: 1;
+}
+
+.hero_right h3{
+  z-index: 2;
+}
+  }
+
+
   @media screen and (max-width:768px){
     .hero_img{
       display: none;
