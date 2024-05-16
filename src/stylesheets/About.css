@@ -90,3 +90,31 @@
         width: 100%;
     }
 }
+
+
+
+@media screen and (max-width:400px){
+    .about{
+        padding: 1rem 0;
+    }
+
+    .about_flex{
+        width: 100%;
+    }
+
+    
+.about_right .image_flex .top{
+    width: auto;
+}
+
+
+
+.about_right .image_flex .bottom{
+    display: flex;
+    gap: 1rem;
+    width: auto;
+}
+
+
+
+}

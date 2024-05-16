@@ -258,5 +258,70 @@
 }
 
 
+  }
+
+  @media screen and (max-width:400px){
+
+    .hero_section{
+      height: 70vh;
+      max-height: 70vh;
+  }
+    .hero_section{
+      padding: 2rem 0;
+    }
+
+    .hero_right h1{
+      font-size:3rem;
+  }
+  .hero_right h3{
+    width: 60%;
+    font-weight: 600;
+    font-size:1.2rem;
+
+}
+
+.hero_right p{
+    padding: 1rem 0;
+    width: 60%;
+}
+
+
+.hero_right .buttons{
+  margin: 0rem 0;
+  gap: 1rem;
+}
+
+
+
+
+.button{
+  font-size:1rem;
+  gap:.4rem;
+}
+
+
+.hero_right .gallery{
+  margin-top: 2rem;
+  gap: .5rem;
+}
+
+.hero_right .gallery .gallery_controller{
+  display: none;
+}
+
+.hero_right .img_box{
+  width: 10rem;
+  height: 5rem;
+
+}
+
+
+.hero_right .images_flex{
+  gap: 1rem;
+}
 
   }
+
+
+  
+  
